@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>La Bussola dell'Abitare</title>
+  <meta name="description" content="Sportello gratuito di supporto abitativo nell'XI Municipio di Roma. Orientamento, modulistica, mediazione culturale e linguistica." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HEADER / NAV -->
+  <header>
+    <div class="nav-inner">
+      <a class="nav-logo" href="#home" aria-label="La Bussola dell'Abitare - home">
+        <!-- compass icon -->
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="10"/>
+          <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/>
+        </svg>
+        La Bussola dell'Abitare
+      </a>
+      <nav aria-label="Navigazione principale">
+        <ul>
+          <li><a href="#chi-siamo">Chi siamo</a></li>
+          <li><a href="#servizi">Servizi</a></li>
+          <li><a href="#orari">Orari</a></li>
+          <li><a href="#contatti">Contatti</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="home" aria-labelledby="hero-heading">
+    <div class="hero-inner">
+      <div class="hero-badge">XI Municipio &mdash; Roma</div>
+      <h1 id="hero-heading">La Bussola<br /><em>dell'Abitare</em></h1>
+      <p>Uno sportello gratuito che ti orienta e ti supporta quando hai difficoltà con la casa.
+         Siamo qui per ascoltarti, aiutarti a capire i tuoi diritti e accompagnarti verso soluzioni sostenibili.</p>
+      <a href="#contatti" class="hero-cta">
+        <!-- phone icon -->
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.31h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 6 6l1.27-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7a2 2 0 0 1 1.72 2.02z"/>
+        </svg>
+        Contattaci
+      </a>
+    </div>
+  </section>
+
+  <!-- CHI SIAMO -->
+  <section class="section" id="chi-siamo" aria-labelledby="chi-siamo-title">
+    <div class="section-inner">
+      <h2 class="section-title" id="chi-siamo-title">Chi siamo</h2>
+      <div class="section-divider" aria-hidden="true"></div>
+
+      <div class="about-text">
+        <p>
+          La Bussola dell'Abitare è un <strong>servizio gratuito</strong> attivo nel territorio dell'<strong>XI Municipio</strong>,
+          nato per sostenere le persone che si trovano o rischiano di trovarsi in <strong>difficoltà abitativa</strong>.
+        </p>
+        <p>
+          Offriamo supporto e assistenza concreta per aiutare i cittadini a comprendere la propria situazione,
+          conoscere i propri diritti e accedere ai percorsi disponibili, come l'inserimento nelle graduatorie
+          per l'edilizia residenziale pubblica.
+        </p>
+        <p>
+          L'obiettivo è <strong>accompagnare le persone nella ricerca di soluzioni sostenibili</strong>.
+        </p>
+      </div>
+
+      <h3 style="margin-top:2.25rem; margin-bottom:1rem; font-size:1.1rem; color:var(--color-text);">
+        Come funziona lo sportello
+      </h3>
+      <div class="levels-grid">
+        <div class="level-card">
+          <div class="level-number" aria-hidden="true">1</div>
+          <h3>Primo livello</h3>
+          <p>Accoglienza, ascolto e compilazione della modulistica. Il punto di partenza per chi si rivolge allo sportello.</p>
+        </div>
+        <div class="level-card">
+          <div class="level-number" aria-hidden="true">2</div>
+          <h3>Secondo livello</h3>
+          <p>Accessibile se necessario: colloquio con un'assistente sociale per l'individuazione del bisogno specifico, in accordo con i servizi sociali territoriali e altri enti del terzo settore.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVIZI -->
+  <section class="section section--alt" id="servizi" aria-labelledby="servizi-title">
+    <div class="section-inner">
+      <h2 class="section-title" id="servizi-title">Cosa offriamo</h2>
+      <div class="section-divider" aria-hidden="true"></div>
+
+      <ul class="services-list" aria-label="Elenco dei servizi offerti">
+        <li>
+          <span class="service-icon" aria-hidden="true">📋</span>
+          <span>Compilazione della modulistica</span>
+        </li>
+        <li>
+          <span class="service-icon" aria-hidden="true">📨</span>
+          <span>Invio delle domande agli enti competenti</span>
+        </li>
+        <li>
+          <span class="service-icon" aria-hidden="true">🏠</span>
+          <span>Orientamento abitativo (non è un servizio di ricerca alloggio)</span>
+        </li>
+        <li>
+          <span class="service-icon" aria-hidden="true">ℹ️</span>
+          <span>Informazioni sui servizi del territorio</span>
+        </li>
+        <li>
+          <span class="service-icon" aria-hidden="true">🌐</span>
+          <span>Mediazione culturale e linguistica in <strong>bengalese</strong>, <strong>inglese</strong> e <strong>albanese</strong></span>
+        </li>
+      </ul>
+
+      <h3 style="margin-top:2.5rem; margin-bottom:0.75rem; font-size:1.1rem; color:var(--color-text);">A chi è rivolto</h3>
+      <p style="max-width:680px; color:var(--color-text-light);">
+        A tutti i cittadini e le cittadine che hanno bisogno di un supporto per le <strong>difficoltà abitative</strong>.
+        Rivolgiti direttamente allo sportello per verificare i requisiti o per qualsiasi dubbio.
+      </p>
+    </div>
+  </section>
+
+  <!-- ORARI -->
+  <section class="section" id="orari" aria-labelledby="orari-title">
+    <div class="section-inner">
+      <h2 class="section-title" id="orari-title">Orari di apertura</h2>
+      <div class="section-divider" aria-hidden="true"></div>
+
+      <div class="hours-grid">
+        <div class="hours-card">
+          <div class="hours-days">Martedì &amp; Giovedì</div>
+          <div class="hours-time">14:00 – 17:00</div>
+        </div>
+        <div class="hours-card">
+          <div class="hours-days">Mercoledì &amp; Venerdì</div>
+          <div class="hours-time">10:00 – 13:00</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATTI -->
+  <section class="section section--alt" id="contatti" aria-labelledby="contatti-title">
+    <div class="section-inner">
+      <h2 class="section-title" id="contatti-title">Contatti</h2>
+      <div class="section-divider" aria-hidden="true"></div>
+
+      <div class="contacts-grid">
+        <div class="contact-card">
+          <div class="contact-icon" aria-hidden="true">
+            <!-- map pin -->
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+              <circle cx="12" cy="10" r="3"/>
+            </svg>
+          </div>
+          <div class="contact-card-body">
+            <span class="contact-label">Indirizzo</span>
+            <span class="contact-value">
+              <a href="https://maps.google.com/?q=Via+Pian+Due+Torri+51B+Roma" target="_blank" rel="noopener noreferrer">
+                Via Pian Due Torri, 51B
+              </a>
+            </span>
+            <span class="contact-note">XI Municipio &ndash; Roma</span>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <div class="contact-icon" aria-hidden="true">
+            <!-- phone -->
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.31h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 6 6l1.27-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7a2 2 0 0 1 1.72 2.02z"/>
+            </svg>
+          </div>
+          <div class="contact-card-body">
+            <span class="contact-label">Telefono &amp; WhatsApp</span>
+            <span class="contact-value">
+              <a href="tel:+393420925555">+39 342 092 5555</a>
+            </span>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <div class="contact-icon" aria-hidden="true">
+            <!-- mail -->
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+          </div>
+          <div class="contact-card-body">
+            <span class="contact-label">Email</span>
+            <span class="contact-value">
+              <a href="mailto:info@bussolaabitare.com">info@bussolaabitare.com</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; <span id="year"></span> La Bussola dell'Abitare &mdash; XI Municipio, Roma &mdash;
+      Servizio gratuito di orientamento abitativo
+    </p>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </footer>
+
+</body>
+</html>
