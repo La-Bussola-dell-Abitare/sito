@@ -82,6 +82,13 @@ header {
   flex-shrink: 0;
 }
 
+.nav-logo-img {
+  height: 34px;
+  width: auto;
+  flex-shrink: 0;
+  display: block;
+}
+
 nav ul {
   list-style: none;
   display: flex;
@@ -410,6 +417,14 @@ footer a {
 /* ---- RESPONSIVE ---- */
 
 @media (max-width: 600px) {
+  .nav-logo {
+    font-size: 1rem;
+  }
+
+  .nav-logo-img {
+    height: 30px;
+  }
+
   .nav-inner {
     flex-direction: column;
     height: auto;
