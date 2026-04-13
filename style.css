@@ -3,9 +3,9 @@
    =========================== */
 
 :root {
-  --color-primary: #1a5c8a;
-  --color-primary-dark: #134570;
-  --color-accent: #e8a020;
+  --color-primary: #890c1a;
+  --color-primary-dark: #640914;
+  --color-accent: #f2b629;
   --color-bg: #f5f7fa;
   --color-surface: #ffffff;
   --color-text: #1e2a35;
@@ -117,7 +117,7 @@ nav ul li a:focus {
 /* ---- HERO ---- */
 
 .hero {
-  background: linear-gradient(135deg, var(--color-primary) 0%, #2176ae 100%);
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
   color: #fff;
   padding: 4rem 1.5rem 3.5rem;
   text-align: center;
@@ -166,7 +166,7 @@ nav ul li a:focus {
   align-items: center;
   gap: 0.5rem;
   background: var(--color-accent);
-  color: #fff;
+  color: var(--color-primary-dark);
   font-weight: 700;
   padding: 0.8rem 1.8rem;
   border-radius: 100px;
@@ -177,8 +177,8 @@ nav ul li a:focus {
 
 .hero-cta:hover,
 .hero-cta:focus {
-  background: #d08e18;
-  color: #fff;
+  background: #dca41f;
+  color: var(--color-primary-dark);
   text-decoration: none;
   transform: translateY(-1px);
 }
