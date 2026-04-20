@@ -229,15 +229,16 @@ a:focus {
 
 .service-icon {
   flex-shrink: 0;
-  width: 2rem;
-  height: 2rem;
-  background: var(--color-primary);
-  border-radius: 50%;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  color: #fff;
-  font-size: 1rem;
+  color: var(--color-primary);
+  font-size: 1.25rem;
+}
+
+.services-item .card-body,
+.contact-card .card-body {
+  align-items: center;
 }
 
 /* ---- HOURS ---- */
@@ -274,15 +275,16 @@ a:focus {
 
 .contact-icon {
   flex-shrink: 0;
-  width: 2.5rem;
-  height: 2.5rem;
-  background: var(--color-primary);
-  border-radius: 50%;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  color: #fff;
-  font-size: 1.2rem;
+  color: var(--color-primary);
+  font-size: 1.4rem;
+}
+
+.contact-icon svg {
+  width: 24px;
+  height: 24px;
 }
 
 .contact-card-body {
