@@ -6,37 +6,38 @@
   <title>La Bussola dell'Abitare</title>
   <meta name="description" content="Sportello gratuito di supporto abitativo nell'XI Municipio di Roma. Orientamento, modulistica, mediazione culturale e linguistica." />
   <link rel="icon" type="image/svg+xml" href="assets/images/logo.svg" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
   <link rel="stylesheet" href="assets/css/main.css" />
 </head>
 <body>
 
-  <!-- HEADER / NAV -->
-  <header>
-    <div class="nav-inner">
-      <a class="nav-logo" href="#home" aria-label="La Bussola dell'Abitare - home">
+  <nav class="navbar navbar-expand-lg navbar-dark site-navbar sticky-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2 fw-bold" href="#home" aria-label="La Bussola dell'Abitare - home">
         <img src="assets/images/logo.svg" alt="" class="nav-logo-img" aria-hidden="true" />
-        La Bussola dell'Abitare
+        <span>La Bussola dell'Abitare</span>
       </a>
-      <nav aria-label="Navigazione principale">
-        <ul>
-          <li><a href="#chi-siamo">Chi siamo</a></li>
-          <li><a href="#servizi">Servizi</a></li>
-          <li><a href="#orari">Orari</a></li>
-          <li><a href="#contatti">Contatti</a></li>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Apri menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#chi-siamo">Chi siamo</a></li>
+          <li class="nav-item"><a class="nav-link" href="#servizi">Servizi</a></li>
+          <li class="nav-item"><a class="nav-link" href="#orari">Orari</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contatti">Contatti</a></li>
         </ul>
-      </nav>
+      </div>
     </div>
-  </header>
+  </nav>
 
-  <!-- HERO -->
-  <section class="hero" id="home" aria-labelledby="hero-heading">
-    <div class="hero-inner">
+  <section class="hero py-5" id="home" aria-labelledby="hero-heading">
+    <div class="container py-4 text-center">
       <div class="hero-badge">XI Municipio &mdash; Roma</div>
-      <h1 id="hero-heading">La Bussola<br />dell'Abitare</h1>
-      <p>Uno sportello gratuito che ti orienta e ti supporta quando hai difficoltà con la casa.
+      <h1 id="hero-heading" class="display-5 fw-bold">La Bussola<br />dell'Abitare</h1>
+      <p class="lead mx-auto hero-copy">Uno sportello gratuito che ti orienta e ti supporta quando hai difficoltà con la casa.
          Siamo qui per ascoltarti, aiutarti a capire i tuoi diritti e accompagnarti verso soluzioni sostenibili.</p>
-      <a href="#contatti" class="hero-cta">
-        <!-- phone icon -->
+      <a href="#contatti" class="hero-cta btn btn-warning btn-lg rounded-pill fw-bold px-4">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
           <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.31h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 6 6l1.27-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7a2 2 0 0 1 1.72 2.02z"/>
         </svg>
@@ -45,9 +46,8 @@
     </div>
   </section>
 
-  <!-- CHI SIAMO -->
-  <section class="section" id="chi-siamo" aria-labelledby="chi-siamo-title">
-    <div class="section-inner">
+  <section class="py-5" id="chi-siamo" aria-labelledby="chi-siamo-title">
+    <div class="container">
       <h2 class="section-title" id="chi-siamo-title">Chi siamo</h2>
       <div class="section-divider" aria-hidden="true"></div>
 
@@ -66,156 +66,162 @@
         </p>
       </div>
 
-      <h3 style="margin-top:2.25rem; margin-bottom:1rem; font-size:1.1rem; color:var(--color-text);">
-        Come funziona lo sportello
-      </h3>
-      <div class="levels-grid">
-        <div class="level-card">
-          <div class="level-number" aria-hidden="true">1</div>
-          <h3>Primo livello</h3>
-          <p>Accoglienza, ascolto e compilazione della modulistica. Il punto di partenza per chi si rivolge allo sportello.</p>
+      <h3 class="h5 mt-5 mb-3 text-body">Come funziona lo sportello</h3>
+      <div class="row g-4">
+        <div class="col-12 col-md-6">
+          <div class="card h-100 level-card border-0 shadow-sm">
+            <div class="card-body">
+              <div class="level-number" aria-hidden="true">1</div>
+              <h3 class="h6">Primo livello</h3>
+              <p class="mb-0">Accoglienza, ascolto e compilazione della modulistica. Il punto di partenza per chi si rivolge allo sportello.</p>
+            </div>
+          </div>
         </div>
-        <div class="level-card">
-          <div class="level-number" aria-hidden="true">2</div>
-          <h3>Secondo livello</h3>
-          <p>Accessibile se necessario: colloquio con un'assistente sociale per l'individuazione del bisogno specifico, in accordo con i servizi sociali territoriali e altri enti del terzo settore.</p>
+        <div class="col-12 col-md-6">
+          <div class="card h-100 level-card border-0 shadow-sm">
+            <div class="card-body">
+              <div class="level-number" aria-hidden="true">2</div>
+              <h3 class="h6">Secondo livello</h3>
+              <p class="mb-0">Accessibile se necessario: colloquio con un'assistente sociale per l'individuazione del bisogno specifico, in accordo con i servizi sociali territoriali e altri enti del terzo settore.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- SERVIZI -->
-  <section class="section section--alt" id="servizi" aria-labelledby="servizi-title">
-    <div class="section-inner">
+  <section class="py-5 bg-white" id="servizi" aria-labelledby="servizi-title">
+    <div class="container">
       <h2 class="section-title" id="servizi-title">Cosa offriamo</h2>
       <div class="section-divider" aria-hidden="true"></div>
 
-      <ul class="services-list" aria-label="Elenco dei servizi offerti">
-        <li>
-          <span class="service-icon" aria-hidden="true">📋</span>
-          <span>Compilazione della modulistica</span>
-        </li>
-        <li>
-          <span class="service-icon" aria-hidden="true">📨</span>
-          <span>Invio delle domande agli enti competenti</span>
-        </li>
-        <li>
-          <span class="service-icon" aria-hidden="true">🏠</span>
-          <span>Orientamento abitativo (non è un servizio di ricerca alloggio)</span>
-        </li>
-        <li>
-          <span class="service-icon" aria-hidden="true">ℹ️</span>
-          <span>Informazioni sui servizi del territorio</span>
-        </li>
-        <li>
-          <span class="service-icon" aria-hidden="true">🌐</span>
-          <span>Mediazione culturale e linguistica in <strong>bengalese</strong>, <strong>inglese</strong> e <strong>albanese</strong></span>
-        </li>
-      </ul>
+      <div class="row g-3" aria-label="Elenco dei servizi offerti">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="services-item card h-100 border-0 shadow-sm"><div class="card-body d-flex gap-3"><span class="service-icon" aria-hidden="true">📋</span><span>Compilazione della modulistica</span></div></div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="services-item card h-100 border-0 shadow-sm"><div class="card-body d-flex gap-3"><span class="service-icon" aria-hidden="true">📨</span><span>Invio delle domande agli enti competenti</span></div></div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="services-item card h-100 border-0 shadow-sm"><div class="card-body d-flex gap-3"><span class="service-icon" aria-hidden="true">🏠</span><span>Orientamento abitativo (non è un servizio di ricerca alloggio)</span></div></div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-6">
+          <div class="services-item card h-100 border-0 shadow-sm"><div class="card-body d-flex gap-3"><span class="service-icon" aria-hidden="true">ℹ️</span><span>Informazioni sui servizi del territorio</span></div></div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-6">
+          <div class="services-item card h-100 border-0 shadow-sm"><div class="card-body d-flex gap-3"><span class="service-icon" aria-hidden="true">🌐</span><span>Mediazione culturale e linguistica in <strong>bengalese</strong>, <strong>inglese</strong> e <strong>albanese</strong></span></div></div>
+        </div>
+      </div>
 
-      <h3 style="margin-top:2.5rem; margin-bottom:0.75rem; font-size:1.1rem; color:var(--color-text);">A chi è rivolto</h3>
-      <p style="max-width:680px; color:var(--color-text-light);">
+      <h3 class="h5 mt-5 mb-3 text-body">A chi è rivolto</h3>
+      <p class="text-secondary col-12 col-lg-8 ps-0">
         A tutti i cittadini e le cittadine che hanno bisogno di un supporto per le <strong>difficoltà abitative</strong>.
         Rivolgiti direttamente allo sportello per verificare i requisiti o per qualsiasi dubbio.
       </p>
     </div>
   </section>
 
-  <!-- ORARI -->
-  <section class="section" id="orari" aria-labelledby="orari-title">
-    <div class="section-inner">
+  <section class="py-5" id="orari" aria-labelledby="orari-title">
+    <div class="container">
       <h2 class="section-title" id="orari-title">Orari di apertura</h2>
       <div class="section-divider" aria-hidden="true"></div>
 
-      <div class="hours-grid">
-        <div class="hours-card">
-          <div class="hours-days">Martedì &amp; Giovedì</div>
-          <div class="hours-time">14:00 – 17:00</div>
+      <div class="row g-3">
+        <div class="col-12 col-md-6">
+          <div class="hours-card card h-100 border-0 shadow-sm text-center">
+            <div class="card-body">
+              <div class="hours-days">Martedì &amp; Giovedì</div>
+              <div class="hours-time">14:00 - 17:00</div>
+            </div>
+          </div>
         </div>
-        <div class="hours-card">
-          <div class="hours-days">Mercoledì &amp; Venerdì</div>
-          <div class="hours-time">10:00 – 13:00</div>
+        <div class="col-12 col-md-6">
+          <div class="hours-card card h-100 border-0 shadow-sm text-center">
+            <div class="card-body">
+              <div class="hours-days">Mercoledì &amp; Venerdì</div>
+              <div class="hours-time">10:00 - 13:00</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- CONTATTI -->
-  <section class="section section--alt" id="contatti" aria-labelledby="contatti-title">
-    <div class="section-inner">
+  <section class="py-5 bg-white" id="contatti" aria-labelledby="contatti-title">
+    <div class="container">
       <h2 class="section-title" id="contatti-title">Contatti</h2>
       <div class="section-divider" aria-hidden="true"></div>
 
-      <div class="contacts-grid">
-        <div class="contact-card">
-          <div class="contact-icon" aria-hidden="true">
-            <!-- map pin -->
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
-              <circle cx="12" cy="10" r="3"/>
-            </svg>
-          </div>
-          <div class="contact-card-body">
-            <span class="contact-label">Indirizzo</span>
-            <span class="contact-value">
-              <a href="https://maps.google.com/?q=Via+Pian+Due+Torri+51B+Roma" target="_blank" rel="noopener noreferrer">
-                Via Pian Due Torri, 51B
-              </a>
-            </span>
-            <span class="contact-note">XI Municipio &ndash; Roma</span>
-          </div>
-        </div>
-
-        <div class="contact-card">
-          <div class="contact-icon" aria-hidden="true">
-            <!-- phone -->
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.31h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 6 6l1.27-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7a2 2 0 0 1 1.72 2.02z"/>
-            </svg>
-          </div>
-          <div class="contact-card-body">
-            <span class="contact-label">Telefono &amp; WhatsApp</span>
-            <span class="contact-value">
-              <a href="tel:+393420925555">+39 342 092 5555</a>
-            </span>
+      <div class="row g-3">
+        <div class="col-12 col-md-4">
+          <div class="contact-card card h-100 border-0 shadow-sm">
+            <div class="card-body d-flex gap-3">
+              <div class="contact-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                  <circle cx="12" cy="10" r="3"/>
+                </svg>
+              </div>
+              <div class="contact-card-body">
+                <span class="contact-label">Indirizzo</span>
+                <span class="contact-value"><a href="https://maps.google.com/?q=Via+Pian+Due+Torri+51B+Roma" target="_blank" rel="noopener noreferrer">Via Pian Due Torri, 51B</a></span>
+                <span class="contact-note">XI Municipio &ndash; Roma</span>
+              </div>
+            </div>
           </div>
         </div>
-
-        <div class="contact-card">
-          <div class="contact-icon" aria-hidden="true">
-            <!-- mail -->
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-              <polyline points="22,6 12,13 2,6"/>
-            </svg>
+        <div class="col-12 col-md-4">
+          <div class="contact-card card h-100 border-0 shadow-sm">
+            <div class="card-body d-flex gap-3">
+              <div class="contact-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.31h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9a16 16 0 0 0 6 6l1.27-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7a2 2 0 0 1 1.72 2.02z"/>
+                </svg>
+              </div>
+              <div class="contact-card-body">
+                <span class="contact-label">Telefono &amp; WhatsApp</span>
+                <span class="contact-value"><a href="tel:+393420925555">+39 342 092 5555</a></span>
+              </div>
+            </div>
           </div>
-          <div class="contact-card-body">
-            <span class="contact-label">Email</span>
-            <span class="contact-value">
-              <a href="mailto:info@labussoladellabitare.com">info@labussoladellabitare.com</a>
-            </span>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="contact-card card h-100 border-0 shadow-sm">
+            <div class="card-body d-flex gap-3">
+              <div class="contact-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                  <polyline points="22,6 12,13 2,6"/>
+                </svg>
+              </div>
+              <div class="contact-card-body">
+                <span class="contact-label">Email</span>
+                <span class="contact-value"><a href="mailto:info@labussoladellabitare.com">info@labussoladellabitare.com</a></span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="map-container" style="margin-top: 2.5rem;">
+      <div class="map-container mt-4">
         <iframe src="https://www.google.com/maps/d/u/3/embed?mid=1CIiRg0D4shMCXi6Egcz4X5Bw3tfWCDs&ehbc=2E312F" width="640" height="480" style="border: none; border-radius: 8px; width: 100%; max-width: 2000px; height: auto; aspect-ratio: 640 / 480;"></iframe>
       </div>
     </div>
   </section>
 
-  <!-- FOOTER -->
-  <footer>
-    <div class="footer-logos" aria-label="Enti partner">
-      <img src="assets/images/partners/comune/logo_roma_white.png" alt="Comune di Roma" class="footer-logo" />
-      <img src="assets/images/partners/ministero-lavoro/logo.png" alt="Ministero del Lavoro" class="footer-logo" />
-      <img src="assets/images/partners/fp/logo.png" alt="Forum del Terzo Settore del Lazio" class="footer-logo" />
+  <footer class="py-4">
+    <div class="container">
+      <div class="footer-logos" aria-label="Enti partner">
+        <img src="assets/images/partners/comune/logo_roma_white.png" alt="Comune di Roma" class="footer-logo" />
+        <img src="assets/images/partners/ministero-lavoro/logo.png" alt="Ministero del Lavoro" class="footer-logo" />
+        <img src="assets/images/partners/fp/logo.png" alt="Forum del Terzo Settore del Lazio" class="footer-logo" />
+      </div>
+      <p class="mb-0">&copy; <span id="year"></span> La Bussola dell'Abitare &mdash; XI Municipio, Roma &mdash; Servizio gratuito di orientamento abitativo</p>
     </div>
-    <p>&copy; <span id="year"></span> La Bussola dell'Abitare &mdash; XI Municipio, Roma &mdash;
-      Servizio gratuito di orientamento abitativo
-    </p>
-    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
   </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 
 </body>
 </html>
