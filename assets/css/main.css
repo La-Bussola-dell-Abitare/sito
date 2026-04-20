@@ -441,6 +441,13 @@ footer a {
   margin-bottom: 1rem;
 }
 
+.footer-logo {
+  height: 56px;
+  width: auto;
+  display: block;
+  object-fit: contain;
+}
+
 
 /* ---- RESPONSIVE ---- */
 
@@ -480,6 +487,6 @@ footer a {
 
   .footer-logo {
     height: 46px;
-    max-width: 150px;
+    width: auto;
   }
 }
