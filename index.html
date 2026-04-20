@@ -211,17 +211,40 @@
 
   <footer class="py-4">
     <div class="container">
-      <div class="footer-logos" aria-label="Enti partner">
-        <img src="assets/images/partners/comune/logo_roma_white.png" alt="Comune di Roma" class="footer-logo" />
-        <img src="assets/images/partners/ministero-lavoro/logo.png" alt="Ministero del Lavoro" class="footer-logo" />
-        <img src="assets/images/partners/fp/logo.png" alt="Forum del Terzo Settore del Lazio" class="footer-logo" />
+      <div class="row row-cols-3 g-3 footer-logos" aria-label="Enti partner">
+        <div class="col d-flex justify-content-center align-items-center">
+          <img src="assets/images/partners/comune/logo_roma_white.png" alt="Comune di Roma" class="footer-logo" />
+        </div>
+        <div class="col d-flex justify-content-center align-items-center">
+          <img src="assets/images/partners/ministero-lavoro/logo.png" alt="Ministero del Lavoro" class="footer-logo" />
+        </div>
+        <div class="col d-flex justify-content-center align-items-center">
+          <img src="assets/images/partners/fp/logo.png" alt="Forum del Terzo Settore del Lazio" class="footer-logo" />
+        </div>
       </div>
       <p class="mb-0">&copy; <span id="year"></span> La Bussola dell'Abitare &mdash; XI Municipio, Roma &mdash; Servizio gratuito di orientamento abitativo</p>
     </div>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    const updateAnchorOffset = () => {
+      const navbar = document.querySelector('.site-navbar');
+      const offset = navbar ? Math.ceil(navbar.getBoundingClientRect().height) : 72;
+      document.documentElement.style.setProperty('--anchor-offset', offset + 'px');
+    };
+
+    window.addEventListener('load', updateAnchorOffset);
+    window.addEventListener('resize', updateAnchorOffset);
+
+    const collapseMenu = document.getElementById('mainNavbar');
+    if (collapseMenu) {
+      collapseMenu.addEventListener('shown.bs.collapse', updateAnchorOffset);
+      collapseMenu.addEventListener('hidden.bs.collapse', updateAnchorOffset);
+    }
+  </script>
 
 </body>
 </html>

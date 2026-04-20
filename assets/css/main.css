@@ -32,6 +32,7 @@
   --radius: 8px;
   --shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
   --max-width: 960px;
+  --anchor-offset: 72px;
 }
 
 *, *::before, *::after {
@@ -42,6 +43,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: var(--anchor-offset);
 }
 
 body {
@@ -287,6 +289,7 @@ a:focus {
   display: flex;
   flex-direction: column;
   gap: 0.1rem;
+  min-width: 0;
 }
 
 .contact-label {
@@ -301,10 +304,15 @@ a:focus {
   font-size: 0.97rem;
   font-weight: 600;
   color: var(--color-text);
+  min-width: 0;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .contact-value a {
   color: var(--color-primary);
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .contact-note {
@@ -327,18 +335,15 @@ footer a {
 }
 
 .footer-logos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 1.25rem;
   margin-bottom: 1rem;
 }
 
 .footer-logo {
   height: 56px;
   width: auto;
+  max-width: 100%;
   display: block;
+  margin: 0 auto;
   object-fit: contain;
 }
 
