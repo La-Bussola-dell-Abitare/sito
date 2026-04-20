@@ -432,6 +432,16 @@ footer a {
   color: rgba(255,255,255,0.9);
 }
 
+.footer-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+
 /* ---- RESPONSIVE ---- */
 
 @media (max-width: 600px) {
@@ -466,5 +476,10 @@ footer a {
 
   .section {
     padding: 2.5rem 1rem;
+  }
+
+  .footer-logo {
+    height: 46px;
+    max-width: 150px;
   }
 }
