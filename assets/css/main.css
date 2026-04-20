@@ -28,6 +28,7 @@
   --color-text: #1e2a35;
   --color-text-light: #4a5568;
   --color-border: #d1dbe6;
+  --color-footer: #30373d;
   --radius: 8px;
   --shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
   --max-width: 960px;
@@ -420,7 +421,7 @@ nav ul li a:focus {
 /* ---- FOOTER ---- */
 
 footer {
-  background: var(--color-primary-dark);
+  background: var(--color-footer);
   color: rgba(255,255,255,0.75);
   text-align: center;
   padding: 1.75rem 1.5rem;
