@@ -362,7 +362,7 @@ footer a {
   border-radius: var(--radius);
   overflow: hidden;
   background: #fff;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 210 / 297;
   padding: 0.5rem;
   display: flex;
   align-items: center;
