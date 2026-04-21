@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="212.16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="211.28">
+ <defs>
+  <linearGradient id="linearGradient914" y2=".007042" x2=".48529" y1=".92958" x1=".47059">
+   <stop id="stop941" stop-color="#fff" stop-opacity="0" offset="0"/>
+   <stop id="stop943" stop-color="#fff" stop-opacity=".85" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient908" x2=".49306" y1=".68310" x1=".49306">
+   <stop id="stop910" stop-color="#fff" stop-opacity="0" offset="0"/>
+   <stop id="stop911" stop-color="#fff" stop-opacity=".573" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient906" y2=".99296" x2=".48611" y1=".014085" x1=".47917">
+   <stop id="stop904" stop-color="#ddd" offset="0"/>
+   <stop id="stop905" stop-color="#f5f5f5" offset="1"/>
+  </linearGradient>
+  <radialGradient id="radialGradient933">
+   <stop id="stop931" offset="0"/>
+   <stop id="stop934" stop-opacity=".766" offset=".87947"/>
+   <stop id="stop932" stop-opacity="0" offset="1"/>
+  </radialGradient>
+ </defs>
+ <g fill-rule="evenodd">
+  <g stroke-width="1.25">
+   <path id="path928" fill="url(#radialGradient933)" d="m212.16 107.63a103.65 103.65 0 1 0 -207.3 0 103.65 103.65 0 1 0 207.3 0z"/>
+   <path id="path901" d="m207.3 103.65a103.65 103.65 0 1 0 -207.3 0 103.65 103.65 0 1 0 207.3 0z"/>
+  </g>
+  <path id="path907" stroke-width="1.254" fill="url(#linearGradient908)" d="m202.32 103.86a97.117 100.48 0 1 0 -194.23 -2.9958 97.117 100.48 0 1 0 194.23 2.9958z"/>
+  <path id="path944" stroke-width="1.25" d="m191.91 111.99a88.295 95.537 0 1 0 -176.59 0 88.295 95.537 0 1 0 176.59 0z"/>
+  <path id="path902" stroke-width="3.75" fill="url(#linearGradient906)" d="m186.31 102.91a82.601 82.601 0 1 0 -165.2 0 82.601 82.601 0 1 0 165.2 0z"/>
+  <path id="path913" stroke-width="1.25" fill="url(#linearGradient914)" d="m173.59 96.655a69.827 68.607 0 1 0 -139.65 0 69.827 68.607 0 1 0 139.65 0z"/>
+  <g id="g920" externalResourcesRequired="false" stroke="#000" fill="none">
+   <path id="path915" stroke-width="3.75" d="m109.48 113.06l-30.72-47.786"/>
+   <path id="path916" stroke-width="3.454" d="m97.828 113.85l36.968-67.113"/>
+  </g>
+  <g stroke-width="1.25">
+   <rect id="rect924" y="26.224" width="3.7731" height="9.0606" x="101.88"/>
+   <rect id="rect935" y="170.2" width="3.7731" height="9.0606" x="101.88"/>
+   <rect id="rect936" transform="rotate(90)" height="9.0606" width="3.7731" y="-36.99" x="100.63"/>
+   <rect id="rect938" transform="rotate(90)" height="9.0606" width="3.7731" y="-179.36" x="100.63"/>
+  </g>
+ </g>
+</svg>
