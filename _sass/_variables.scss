@@ -1,0 +1,27 @@
+// Colors
+$color-primary: #8e001c;
+$color-primary-dark: #640914;
+$color-accent: #ffb300;
+$color-accent-hover: #dca41f;
+$color-bg: #f5f7fa;
+$color-surface: #ffffff;
+$color-text: #1e2a35;
+$color-text-light: #4a5568;
+$color-border: #d1dbe6;
+$color-footer: #30373d;
+
+// Spacing & Layout
+$radius: 8px;
+$shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+$max-width: 960px;
+$anchor-offset: 72px;
+
+// Font
+$font-family: 'Montserrat', sans-serif;
+$font-size-base: 18px;
+$line-height-base: 1.7;
+
+// Breakpoints
+$breakpoint-mobile: 600px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1024px;

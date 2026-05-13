@@ -1,0 +1,155 @@
+// ---- HTML & BODY ----
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: $anchor-offset;
+}
+
+body {
+  font-family: $font-family;
+  background: $color-bg;
+  color: $color-text;
+  line-height: $line-height-base;
+  font-size: $font-size-base;
+}
+
+// ---- LINKS ----
+
+a {
+  color: $color-primary;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+    color: $color-primary-dark;
+  }
+}
+
+// ---- MIXINS ----
+
+@mixin card-style {
+  background: $color-surface;
+  border: 1px solid $color-border;
+  border-radius: $radius;
+  box-shadow: $shadow;
+}
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin transition($props...) {
+  transition: $props;
+}
+
+@mixin text-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: $color-text-light;
+}
+
+
+// ---- ROOT & RESET ----
+
+:root {
+  --color-primary: #{$color-primary};
+  --color-primary-dark: #{$color-primary-dark};
+  --color-accent: #{$color-accent};
+  --color-bg: #{$color-bg};
+  --color-surface: #{$color-surface};
+  --color-text: #{$color-text};
+  --color-text-light: #{$color-text-light};
+  --color-border: #{$color-border};
+  --color-footer: #{$color-footer};
+  --radius: #{$radius};
+  --shadow: #{$shadow};
+  --max-width: #{$max-width};
+  --anchor-offset: #{$anchor-offset};
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+// ---- SECTIONS ----
+
+.section-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: $color-primary;
+  margin-bottom: 0.4rem;
+}
+
+.section-divider {
+  width: 48px;
+  height: 4px;
+  background: $color-accent;
+  border-radius: 2px;
+  margin-bottom: 1.75rem;
+}
+
+// ---- ABOUT ----
+
+.about-text {
+  p + p {
+    margin-top: 1rem;
+  }
+}
+
+// ---- LEVELS ----
+
+.level-card {
+  @include card-style;
+  background: $color-bg;
+
+  h3 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: $color-primary;
+  }
+
+  p {
+    font-size: 0.95rem;
+    color: $color-text-light;
+  }
+}
+
+.level-number {
+  @include flex-center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background: $color-primary;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.85rem;
+}
+
+// ---- RESPONSIVE ----
+
+@media (max-width: $breakpoint-mobile) {
+  .nav-logo-img {
+    height: 30px;
+  }
+
+  .hero {
+    padding: 2.5rem 1rem 2rem;
+  }
+
+  .footer-logo {
+    height: 46px;
+    width: auto;
+  }
+}
