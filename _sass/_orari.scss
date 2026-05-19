@@ -1,0 +1,19 @@
+// ---- HOURS ----
+
+.hours-card {
+  @include card-style;
+  text-align: center;
+}
+
+.hours-days {
+  font-weight: 700;
+  font-size: 1rem;
+  color: $color-primary;
+  margin-bottom: 0.25rem;
+}
+
+.hours-time {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: $color-text;
+}
