@@ -1,14 +1,14 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <script>
 
-  const updateAnchorOffset = () => {
-    const navbar = document.querySelector('.site-navbar');
-    const offset = navbar ? Math.ceil(navbar.getBoundingClientRect().height) : 72;
-    document.documentElement.style.setProperty('--anchor-offset', offset + 'px');
+  const updateNavbarHeight = () => {
+    const navbar = document.querySelector('nav').offsetHeight;
+//    const offset = navbar ? Math.ceil(navbar.getBoundingClientRect().height) : 72;
+    document.documentElement.style.setProperty('--navbar-height', navbar + 'px');
   };
 
-  window.addEventListener('load', updateAnchorOffset);
-  window.addEventListener('resize', updateAnchorOffset);
+  window.addEventListener('load', updateNavbarHeight);
+  window.addEventListener('resize', updateNavbarHeight);
 
   const collapseMenu = document.getElementById('mainNavbar');
   if (collapseMenu) {
