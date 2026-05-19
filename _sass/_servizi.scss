@@ -1,0 +1,15 @@
+// ---- SERVICES ----
+
+.service-icon {
+  flex-shrink: 0;
+  @include flex-center;
+  color: $color-primary;
+  font-size: 1.25rem;
+}
+
+.services-item {
+  background-color: darken($color-bg, 10);
+  .card-body {
+    align-items: center;
+  }
+}
