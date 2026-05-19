@@ -2,7 +2,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: $anchor-offset;
+  scroll-padding-top: $navbar-height;
 }
 
 body {
@@ -11,6 +11,9 @@ body {
   color: $color-text;
   line-height: $line-height-base;
   font-size: $font-size-base;
+  min-height: 100vh;  /* 1. Letto dai browser vecchi */
+  min-height: 100dvh; /* 2. Sovrascrive il precedente nei browser moderni */  display: grid;
+  grid-template-rows: auto 1fr auto;
 }
 
 // ---- LINKS ----
@@ -69,7 +72,7 @@ a {
   --radius: #{$radius};
   --shadow: #{$shadow};
   --max-width: #{$max-width};
-  --anchor-offset: #{$anchor-offset};
+  --navbar-height: #{$navbar-height};
 }
 
 *,
