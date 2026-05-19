@@ -1,5 +1,7 @@
+{% assign page_name = page.name | split: "." | first %}
+
 <!DOCTYPE html>
-<html lang="it">
+<html lang="it" class="{{ page.id | default: page_name }}">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
