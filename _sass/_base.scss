@@ -2,7 +2,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: $navbar-height;
+  scroll-padding-top: var(--navbar-height);
 }
 
 body {
