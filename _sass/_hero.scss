@@ -8,7 +8,8 @@
   background-position: center, center;
   background-repeat: no-repeat, no-repeat;
   background-size: auto, contain;
-  min-height: calc( 100vh - var(--navbar-height) );
+  min-height: calc( 100vh - var(--navbar-height) ); /* Per browser che non supportano dvh */
+  min-height: calc( 100dvh - var(--navbar-height) );
   display: grid;
   grid-template-rows: auto 1fr auto;
 
