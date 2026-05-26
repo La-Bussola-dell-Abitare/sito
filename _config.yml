@@ -52,3 +52,8 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+sass:
+  sass_dir: _sass
+  # Silenzia gli avvisi di deprecazione dentro le cartelle dei componenti
+  quiet_deps: true

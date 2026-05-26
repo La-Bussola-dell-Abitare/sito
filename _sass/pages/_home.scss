@@ -4,8 +4,11 @@ html.home {
   section {
     scroll-snap-align: start;
     scroll-snap-stop: always;
-    min-height: calc( 100vh - var(--navbar-height) ); /* Per browser che non supportano dvh */
-    min-height: calc( 100dvh - var(--navbar-height) );
+    
+    &:not(:last-child) {
+      min-height: calc( 100vh - var(--navbar-height) ); /* Per browser che non supportano dvh */
+      min-height: calc( 100dvh - var(--navbar-height) );
+    }
   }
 
   footer {
