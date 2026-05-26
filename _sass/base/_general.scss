@@ -1,8 +1,4 @@
-// VARIABLES
-$primary: $color-primary;
-
-// IMPORT BOOTSTRAP
-@import "bootstrap/scss/bootstrap";
+@use 'abstracts' as *;
 
 // ---- HTML & BODY ----
 
@@ -35,61 +31,6 @@ a {
     color: $color-primary-dark;
   }
 }
-
-// ---- MIXINS ----
-
-@mixin card-style {
-  background: $color-surface;
-  border: 1px solid $color-border;
-  border-radius: $radius;
-  box-shadow: $shadow;
-}
-
-@mixin flex-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-@mixin transition($props...) {
-  transition: $props;
-}
-
-@mixin text-label {
-  font-size: 0.78rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.07em;
-  color: $color-text-light;
-}
-
-
-// ---- ROOT & RESET ----
-
-:root {
-  --color-primary: #{$color-primary};
-  --color-primary-dark: #{$color-primary-dark};
-  --color-accent: #{$color-accent};
-  --color-bg: #{$color-bg};
-  --color-surface: #{$color-surface};
-  --color-text: #{$color-text};
-  --color-text-light: #{$color-text-light};
-  --color-border: #{$color-border};
-  --color-footer: #{$color-footer};
-  --radius: #{$radius};
-  --shadow: #{$shadow};
-  --max-width: #{$max-width};
-  --navbar-height: #{$navbar-height};
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 
 // ---- SECTIONS ----
 

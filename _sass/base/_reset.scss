@@ -1,0 +1,27 @@
+@use 'abstracts' as *;
+
+// ---- ROOT & RESET ----
+
+:root {
+  --color-primary: #{$color-primary};
+  --color-primary-dark: #{$color-primary-dark};
+  --color-accent: #{$color-accent};
+  --color-bg: #{$color-bg};
+  --color-surface: #{$color-surface};
+  --color-text: #{$color-text};
+  --color-text-light: #{$color-text-light};
+  --color-border: #{$color-border};
+  --color-footer: #{$color-footer};
+  --radius: #{$radius};
+  --shadow: #{$shadow};
+  --max-width: #{$max-width};
+  --navbar-height: #{$navbar-height};
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
