@@ -10,6 +10,9 @@ title: FAQ
 * Unione Inquilini (sindacalisti e ti seguono per richiesta casa popolare a pagamento (tessera 50 euro))
 * Housing (ci pensa il municipio a trovare assegnatari di casa popolari disposti a condividere gli spazi)
 
+# Occupazione abusiva
+Se hai minori contattare PUA per richiedere assistente sociale.
+
 # Difficoltà a pagare affitto
 
 * municipio con periodico 185
