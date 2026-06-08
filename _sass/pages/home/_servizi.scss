@@ -16,3 +16,28 @@
     align-items: center;
   }
 }
+
+// Custom Accordion per la sezione Servizi
+.lba-accordion {
+  @extend .accordion;
+  @extend .shadow-sm;
+
+  .accordion-item {
+    @extend .border-0;
+    
+    &:not(:last-child) {
+      @extend .border-bottom;
+    }
+  }
+
+  .accordion-button {
+    @extend .fw-bold;
+    @extend .bg-white;
+
+    &:not(.collapsed) {
+      @extend .bg-white;
+      color: var(--bs-accordion-active-color);
+      box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-active-color);
+    }
+  }
+}
