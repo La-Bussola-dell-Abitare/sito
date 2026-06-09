@@ -3,15 +3,13 @@
 // ---- ROOT & RESET ----
 
 :root {
-  --color-primary: #{$color-primary};
-  --color-primary-dark: #{$color-primary-dark};
-  --color-accent: #{$color-accent};
-  --color-bg: #{$color-bg};
-  --color-surface: #{$color-surface};
-  --color-text: #{$color-text};
-  --color-text-light: #{$color-text-light};
-  --color-border: #{$color-border};
-  --color-footer: #{$color-footer};
+
+  // make custom colors available to CSS (so they can be changed at runtime)
+  @each $name, $value in $custom-colors {
+    --#{$name}: #{$value};
+    --bs-#{$name}: #{$value};
+  }
+
   --radius: #{$radius};
   --shadow: #{$shadow};
   --max-width: #{$max-width};
