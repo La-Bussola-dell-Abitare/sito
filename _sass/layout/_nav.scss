@@ -25,7 +25,24 @@
     &:focus,
     &.active {
       color: #fff;
-      font-weight: 700;
+    }
+  }
+
+  .dropdown-menu {
+    background-color: $color-primary;
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+
+  .dropdown-item {
+    color: rgba(255, 255, 255, 0.88);
+    font-weight: 500;
+
+    &:hover,
+    &:focus,
+    &.active {
+      background-color: $color-primary-dark;
+      color: #fff;
     }
   }
 }
