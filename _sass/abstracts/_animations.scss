@@ -1,9 +1,4 @@
-/* 2. Creiamo l'animazione che porta la variabile da 0 a 0.95 */
-@keyframes compareSfondo {
-  to {
-    --hero-bg-opacity: 0.95;
-  }
-}
+@use 'variables' as *;
 
 @keyframes fadeIn {
   from {
