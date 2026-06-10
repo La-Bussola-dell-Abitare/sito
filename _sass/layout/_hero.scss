@@ -1,12 +1,36 @@
 @use 'abstracts' as *;
 
+/* 1. Registriamo una variabile CSS per l'opacità in modo che sia animabile */
+@property --hero-bg-opacity {
+  syntax: '<number>';
+  inherits: false;
+  initial-value: 0;
+}
+
+
+
+
+
 // ---- HERO ----
 
 .hero {
+  --hero-bg-opacity: 0; 
+  
+  /* Sostituiamo lo 0.95 fisso con la nostra variabile animabile */
+  background-image: linear-gradient(
+    135deg,
+    rgba($color-primary-dark, var(--hero-bg-opacity)),
+    rgba($color-primary-dark, var(--hero-bg-opacity))
+  ), url("/assets/images/brand/logo/logo.svg");
+
+  /* Definiamo l'animazione di 3 secondi */
+  animation: compareSfondo 3s ease-in-out forwards;
+
+
   color: #fff;
   padding: 4rem 1.5rem 3.5rem;
   text-align: center;
-  background-image: linear-gradient(135deg, rgba($color-primary-dark, 0.95), rgba($color-primary-dark, 0.95) ), url("/assets/images/brand/logo/logo.svg");
+//  background-image: linear-gradient(135deg, rgba($color-primary-dark, 0.95), rgba($color-primary-dark, 0.95) ), url("/assets/images/brand/logo/logo.svg");
   background-position: center, center;
   background-repeat: no-repeat, no-repeat;
   background-size: auto, contain;
@@ -15,13 +39,17 @@
   display: grid;
   grid-template-rows: auto 1fr auto;
 
-
+  * {
+    animation: fadeIn 3s ease-in-out forwards;
+  }
 
   h1 {
     font-size: clamp(1.8rem, 7vw, 5rem);
     font-weight: 800;
     line-height: 1.2;
     margin-bottom: 1rem;
+    opacity: 0;
+    animation-delay: 0.4s;
 
     em {
       font-style: normal;
@@ -33,7 +61,8 @@
     font-size: 1.1rem;
     max-width: 650px;
     margin: 0 auto 2rem;
-    opacity: 0.92;
+    opacity: 0;
+    animation-delay: 2s;
   }
 }
 
@@ -75,5 +104,21 @@
     color: $color-primary-dark;
     text-decoration: none;
     transform: translateY(-1px);
+  }
+}
+
+/* 2. Creiamo l'animazione che porta la variabile da 0 a 0.95 */
+@keyframes compareSfondo {
+  to {
+    --hero-bg-opacity: 0.95;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
