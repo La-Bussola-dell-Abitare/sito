@@ -1,68 +1,111 @@
 @use 'abstracts' as *;
 
-/* 1. Registriamo una variabile CSS per l'opacità in modo che sia animabile */
-@property --hero-bg-opacity {
-  syntax: '<number>';
-  inherits: false;
-  initial-value: 0;
+svg {
+  animation: fadeOut 3s ease-in-out forwards;
+  animation-delay: 0.5s;
+  z-index: 1;
+  position: absolute;
+  top: calc(50% + var(--navbar-height)/2);
+  left: 50%;
+  height: 90%;
+  transform: translate(-50%, -50%);
+
+  #ago {
+    /* Imposta il fulcro della rotazione esattamente al centro del layer */
+    transform-box: fill-box;
+
+    transform-origin: center;
+    
+    /* Avvia l'animazione: nome, durata (3s), andamento lineare, ciclo infinito */
+    animation: ruotaCentro 15s ease-in-out forwards;
+  }
+
+}
+
+/* Definizione dei fotogrammi chiave per la rotazione completa (360 gradi) */
+@keyframes ruotaCentro {
+  0% {
+    transform: rotate(-45deg);
+  }
+  5% {
+    transform: rotate(-195deg);
+  }
+  10% {
+    transform: rotate(-90deg);
+  }
+  15% {
+    transform: rotate(-150deg);
+  }
+  20% {
+    transform: rotate(-105deg);
+  }
+  25% {
+    transform: rotate(-135deg);
+  }
+
+  30% {
+    transform: rotate(-120deg);
+  }
+  50% {
+    transform: rotate(-120deg);
+  }
+  100% {
+    transform: rotate(-45deg);
+  }
+}
+
+
+@keyframes cambiaColore {
+  0% {
+    background-color: $color-bg;
+  }
+  60% {
+    background-color: lighten($color-primary-dark,10%);
+  }
+  100% {
+    background-color: $color-primary-dark;
+  }
 }
 
 
 
-
-
-// ---- HERO ----
-
 .hero {
-  --hero-bg-opacity: 0; 
-  
-  /* Sostituiamo lo 0.95 fisso con la nostra variabile animabile */
-  background-image: linear-gradient(
-    135deg,
-    rgba($color-primary-dark, var(--hero-bg-opacity)),
-    rgba($color-primary-dark, var(--hero-bg-opacity))
-  ), url("/assets/images/brand/logo/logo.svg");
-
-  /* Definiamo l'animazione di 3 secondi */
-  animation: compareSfondo 3s ease-in-out forwards;
-
+  background-color: $color-primary-dark;
+  animation: cambiaColore 4s linear forwards;
 
   color: #fff;
   padding: 4rem 1.5rem 3.5rem;
   text-align: center;
-//  background-image: linear-gradient(135deg, rgba($color-primary-dark, 0.95), rgba($color-primary-dark, 0.95) ), url("/assets/images/brand/logo/logo.svg");
-  background-position: center, center;
-  background-repeat: no-repeat, no-repeat;
-  background-size: auto, contain;
-  min-height: calc( 100vh - var(--navbar-height) ); /* Per browser che non supportano dvh */
-  min-height: calc( 100dvh - var(--navbar-height) );
   display: grid;
   grid-template-rows: auto 1fr auto;
 
-  * {
-    animation: fadeIn 3s ease-in-out forwards;
-  }
+  .hero-content {
 
-  h1 {
-    font-size: clamp(1.8rem, 7vw, 5rem);
-    font-weight: 800;
-    line-height: 1.2;
-    margin-bottom: 1rem;
-    opacity: 0;
-    animation-delay: 0.4s;
-
-    em {
-      font-style: normal;
-      color: $color-accent;
+    * {
+      opacity: 0;
     }
-  }
+  
+    h1 {
+      font-size: clamp(1.8rem, 7vw, 5rem);
+      font-weight: 800;
+      line-height: 1.2;
+      margin-bottom: 1rem;
+      animation: moveToTop 5s ease-in-out forwards;
+      animation-delay: 1s;
+      color: $color-accent;
 
-  p {
-    font-size: 1.1rem;
-    max-width: 650px;
-    margin: 0 auto 2rem;
-    opacity: 0;
-    animation-delay: 2s;
+      em {
+        font-style: normal;
+      }
+    }
+
+    p {
+      font-size: 1.1rem;
+      max-width: 650px;
+      margin: 0 auto 2rem;
+      animation: fadeIn 5s ease-in-out forwards, zoomIn 3s forwards;
+      animation-delay: 4s;
+    }
   }
 }
 
@@ -119,6 +162,52 @@
     opacity: 0;
   }
   to {
+    opacity: 0.95;
+  }
+}
+
+@keyframes fadeOut {
+  from {
     opacity: 1;
+  }
+  to {
+    opacity: 0.05;
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    transform: scale(0); /* Parte da dimensione zero (invisibile) */
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1); /* Raggiunge la sua dimensione reale (100%) */
+  }
+}
+
+@keyframes moveToTop {
+  0% {
+    /* Parte dal centro esatto dello schermo */
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.5); /* Puoi unirlo a uno zoomIn iniziale */
+    opacity: 0;
+  }
+  50% {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+  }
+  100% {
+    /* Arriva in cima (posizione del primo 'auto' della griglia) */
+    opacity: 1;
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
   }
 }
