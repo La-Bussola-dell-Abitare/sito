@@ -33,7 +33,7 @@
   0% {
     /* Parte dal centro esatto dello schermo */
     position: relative;
-    top: 50%;
+    top: calc(50% + var(--navbar-height)/2);
     left: 50%;
     transform: translate(-50%, -50%) scale(0.5); /* Puoi unirlo a uno zoomIn iniziale */
     opacity: 0;
