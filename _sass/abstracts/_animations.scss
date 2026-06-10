@@ -1,0 +1,106 @@
+/* 2. Creiamo l'animazione che porta la variabile da 0 a 0.95 */
+@keyframes compareSfondo {
+  to {
+    --hero-bg-opacity: 0.95;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.95;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.05;
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    transform: scale(0); /* Parte da dimensione zero (invisibile) */
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1); /* Raggiunge la sua dimensione reale (100%) */
+  }
+}
+
+@keyframes moveToTop {
+  0% {
+    /* Parte dal centro esatto dello schermo */
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.5); /* Puoi unirlo a uno zoomIn iniziale */
+    opacity: 0;
+  }
+  50% {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+  }
+  100% {
+    /* Arriva in cima (posizione del primo 'auto' della griglia) */
+    opacity: 1;
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+  }
+}
+
+/* Definizione dei fotogrammi chiave per la rotazione completa (360 gradi) */
+@keyframes ruotaCentro {
+  0% {
+    transform: rotate(-45deg);
+  }
+  5% {
+    transform: rotate(-195deg);
+  }
+  10% {
+    transform: rotate(-90deg);
+  }
+  15% {
+    transform: rotate(-150deg);
+  }
+  20% {
+    transform: rotate(-105deg);
+  }
+  25% {
+    transform: rotate(-135deg);
+  }
+
+  30% {
+    transform: rotate(-120deg);
+  }
+  50% {
+    transform: rotate(-120deg);
+  }
+  100% {
+    transform: rotate(-45deg);
+  }
+}
+
+
+@keyframes cambiaColore {
+  0% {
+    background-color: $color-bg;
+  }
+  60% {
+    background-color: lighten($color-primary-dark,10%);
+  }
+  100% {
+    background-color: $color-primary-dark;
+  }
+}
