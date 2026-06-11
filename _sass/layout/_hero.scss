@@ -5,7 +5,7 @@ svg {
   animation-delay: 0.5s;
   z-index: 1;
   position: absolute;
-  top: calc(var(--navbar-height) + var(--content-height)/2);
+  top: calc(var(--content-height)/2);
   left: 50%;
   transform: translate(-50%, -50%);
 
@@ -35,6 +35,7 @@ svg {
 
 
 .hero {
+  position:relative;
   background-color: $color-primary-dark;
   animation: cambiaColore 4s linear forwards;
 
@@ -58,6 +59,7 @@ svg {
       animation: moveToTop 5s ease-in-out forwards;
       animation-delay: 1s;
       color: $color-accent;
+      width: 100%;
 
       em {
         font-style: normal;
