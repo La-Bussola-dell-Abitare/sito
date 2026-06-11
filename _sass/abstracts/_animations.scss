@@ -32,17 +32,17 @@
 @keyframes moveToTop {
   0% {
     /* Parte dal centro esatto dello schermo */
-    position: absolute;
+    position: relative;
     top: calc(var(--content-height)/2);
     left: 50%;
-    transform: translate(-50%, -50%) scale(0);
+    transform: translate(-50%, -150%) scale(0);
     opacity: 0;
   }
   50% {
-    position: absolute;
+    position: relative;
     top: calc(var(--content-height)/2);
     left: 50%;
-    transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -150%) scale(1);
     opacity: 1;
   }
   100% {
