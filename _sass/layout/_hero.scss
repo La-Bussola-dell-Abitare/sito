@@ -5,10 +5,21 @@ svg {
   animation-delay: 0.5s;
   z-index: 1;
   position: absolute;
-  top: calc(50% + var(--navbar-height)/2);
+  top: calc(var(--navbar-height) + var(--content-height)/2);
   left: 50%;
-  height: 90%;
   transform: translate(-50%, -50%);
+
+  // Stile per Portrait (Verticale)
+  @media (orientation: portrait) {
+    width: 100%;
+    height: auto; // Lascia che l'altezza si adatti al contenuto
+  }
+
+  // Stile per Landscape (Orizzontale)
+  @media (orientation: landscape) {
+    height: var(--content-height);
+    width: auto; 
+  }
 
   #ago {
     /* Imposta il fulcro della rotazione esattamente al centro del layer */
