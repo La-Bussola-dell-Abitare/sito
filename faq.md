@@ -53,12 +53,39 @@ Fino a esaurimento fondi per pagare affitto
 
 # Residenza fittizia
 
+## Requisiti
+- “senza tetto” propriamente detti, persone che vivono per strada o in sistemazioni di fortuna, oppure presso dormitori o strutture di accoglienza notturna;
+
+- “senza casa”, ospiti in strutture per persone senza dimora, in dormitori oppure in centri di accoglienza per donne;
+
+- con “sistemazione insicura”, a rischio di violenza domestica attestata da rapporti di polizia;
+
+- e, in generale, tutte le persone che rientrano nell’ampia categoria delle persone senza fissa dimora in senso proprio.
+
 ## Documenti necessari
 - Documento in corso di validità
 
+## Documenti da compilare
+
+- modello ministeriale di “Dichiarazione di residenza”;
+
+- “Dichiarazione Sostitutiva ai sensi del D.P.R. n. 445/2000 ai fini dell’iscrizione anagrafica presso la residenza fittizia di Roma, Via Modesta Valenti”
+
+- modello di “Consenso trattamento dati”.
+
 ## Modalità di presentazione
 
-- all’ufficio anagrafico del Municipio di competenza territoriale
+- recandosi personalmente presso all’ufficio anagrafico del Municipio di competenza territoriale. Nel caso del municipio XI è a via Portuense, 579 o via Mazzacurati, 69;
+
+- mediante trasmissione via PEC dell’istanza (protocollo.municipioroma11@pec.comune.roma.it);
+
+- mediante lettera Raccomandata indirizzata a: Ufficio Anagrafe Municipio Roma XI - Via Portuense, 579
+
+FONTI:
+
+https://www.comune.roma.it/web/it/informazione-di-servizio.page?contentId=IDS1195915
+
+https://www.comune.roma.it/web/it/municipio-xi-uffici-e-contatti.page?contentId=UFF529725
 
 ## Cancellazione
 
