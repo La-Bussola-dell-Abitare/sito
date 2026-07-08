@@ -50,3 +50,16 @@ Fino a esaurimento fondi per pagare affitto
 * Via della Magliana, 296
 * 06.69615669 - 06.69615504 - 06.69615507
 * pua.mun11@comune.roma.it
+
+# Residenza fittizia
+
+## Documenti necessari
+- Documento in corso di validità
+
+## Modalità di presentazione
+
+- all’ufficio anagrafico del Municipio di competenza territoriale
+
+## Cancellazione
+
+[Dopo due anni, qualora nei successivi sei mesi il cittadino non abbia più contatti con il Servizio Sociale, l’Agenzia delle Entrate, la Pubblica Sicurezza, le Associazioni, ecc., viene dichiarata l’irreperibilità anagrafica e si procede alla cancellazione della residenza.](https://www.comune.roma.it/web/it/scheda-servizi.page?contentId=INF36538)

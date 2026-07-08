@@ -6,7 +6,7 @@ html.home {
     scroll-snap-stop: always;
     
     &:not(:last-child) {
-      min-height: var(--content-height); /* Per browser che non supportano dvh */
+      min-height: var(--content-height);
     }
   }
 

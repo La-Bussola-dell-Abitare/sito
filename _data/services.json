@@ -1,15 +1,5 @@
 [
   {
-    "icon": "📋",
-    "title": "Compilazione della modulistica",
-    "body": "Ricevi supporto pratico per la compilazione corretta della modulistica necessaria."
-  },
-  {
-    "icon": "📨",
-    "title": "Invio delle domande agli enti competenti",
-    "body": "Ti assistiamo nell'inoltrare la documentazione agli uffici e agli enti preposti per le tue pratiche."
-  },
-  {
     "icon": "🏠",
     "title": "Orientamento abitativo",
     "body": "Ti supportiamo nel capire le opzioni migliori per la tua situazione abitativa. <br>\n            <em>Nota bene: questo non è un servizio di ricerca attiva di un alloggio.</em>"
@@ -18,6 +8,20 @@
     "icon": "ℹ️",
     "title": "Informazioni sui servizi del territorio",
     "body": "Ricevi informazioni aggiornate sulle risorse, i progetti e le agevolazioni presenti sul territorio."
+  },
+  {
+    "icon": "📋",
+    "title": "Compilazione della modulistica e invio delle domande",
+    "body": "<ul class='list-group list-group-flush'>Ci occupiamo in particolare di domande per: 
+      <li class='list-group-item'><abbr title='Edilizia Residenziale Pubblica'>ERP</abbr></li>
+      <li class='list-group-item'>rilascio di <abbr title='Parere Igienico-Sanitario'>PIR</abbr> presso il <abbr title='Servizio Igiene e Sanità Publica'>SISP</abbr> dell'ASL Roma 3</li>
+      <li class='list-group-item'>residenza fittizia</li>
+    </ul>"
+  },
+  {
+    "icon": "📨",
+    "title": "Invio delle domande agli enti competenti",
+    "body": "Ti assistiamo nell'inoltrare la documentazione agli uffici e agli enti preposti per le tue pratiche."
   },
   {
     "icon": "🌐",
