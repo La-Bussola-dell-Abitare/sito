@@ -1,0 +1,7 @@
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+  <symbol id="icon" viewBox="0 0 32 22">
+    <rect x="0" y="0" width="32" height="22" rx="3" fill="#ffb300"/>
+    <polyline points="0,0 16,12 32,0" fill="none" stroke="#8e001c" stroke-width="2"/>
+  </symbol>
+  <use href="#icon"></use>
+</svg>
