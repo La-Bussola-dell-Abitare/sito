@@ -1,0 +1,92 @@
+<svg width="800" height="1200" viewBox="0 0 800 1200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sfondo -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffb347"/>
+      <stop offset="100%" stop-color="#ffcc33"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="800" height="1200" fill="url(#bg)" />
+
+  <!-- Barra superiore -->
+  <rect x="0" y="0" width="800" height="140" fill="#1b1b3a" />
+  <text x="400" y="85"
+        font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="52"
+        fill="#ffffff"
+        text-anchor="middle"
+        font-weight="700">
+    AVVISO AI CLIENTI
+  </text>
+
+  <!-- Icona sole -->
+  <circle cx="650" cy="260" r="80" fill="#ffe066" stroke="#f4a300" stroke-width="6" />
+  <line x1="650" y1="150" x2="650" y2="110" stroke="#f4a300" stroke-width="6" />
+  <line x1="650" y1="370" x2="650" y2="410" stroke="#f4a300" stroke-width="6" />
+  <line x1="560" y1="260" x2="520" y2="260" stroke="#f4a300" stroke-width="6" />
+  <line x1="740" y1="260" x2="780" y2="260" stroke="#f4a300" stroke-width="6" />
+  <line x1="595" y1="205" x2="565" y2="175" stroke="#f4a300" stroke-width="6" />
+  <line x1="705" y1="205" x2="735" y2="175" stroke="#f4a300" stroke-width="6" />
+  <line x1="595" y1="315" x2="565" y2="345" stroke="#f4a300" stroke-width="6" />
+  <line x1="705" y1="315" x2="735" y2="345" stroke="#f4a300" stroke-width="6" />
+
+  <!-- Testo principale -->
+  <text x="100" y="260"
+        font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="60"
+        fill="#1b1b3a"
+        font-weight="700">
+    CHIUSO PER FERIE
+  </text>
+
+  <!-- Date -->
+  <text x="100" y="340"
+        font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="46"
+        fill="#1b1b3a"
+        font-weight="600">
+    dal 10 al 16 agosto
+  </text>
+
+  <!-- Corpo del messaggio -->
+  <text x="100" y="430"
+        font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="32"
+        fill="#1b1b3a">
+    Il servizio resterà temporaneamente chiuso
+  </text>
+  <text x="100" y="480"
+        font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="32"
+        fill="#1b1b3a">
+    per la pausa estiva.
+  </text>
+  <text x="100" y="540"
+        font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="32"
+        fill="#1b1b3a">
+    Riprenderemo regolarmente le attività
+  </text>
+  <text x="100" y="590"
+        font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="32"
+        fill="#1b1b3a">
+    a partire dal 17 agosto.
+  </text>
+
+  <!-- Box inferiore per logo/contatti -->
+  <rect x="0" y="980" width="800" height="220" fill="#1b1b3a" />
+  <text x="50" y="1045"
+        font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="30"
+        fill="#ffffff"
+        font-weight="600">
+    Nome attività / associazione
+  </text>
+  <text x="50" y="1100"
+        font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="24"
+        fill="#ffffff">
+    Indirizzo • Telefono • Sito web / social
+  </text>
+</svg>
