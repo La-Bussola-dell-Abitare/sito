@@ -2,22 +2,29 @@
 layout: default
 title: FAQ
 ---
+# FAQ
 
-# In caso di sfratto
+## In caso di sfratto
 
-* Punto Abitare
-* SUNIA (per consulenze legali)
-* Unione Inquilini (sindacalisti e ti seguono per richiesta casa popolare a pagamento (tessera 50 euro))
-* Housing (ci pensa il municipio a trovare assegnatari di casa popolari disposti a condividere gli spazi)
+- Punto Abitare
+- [SUNIA](https://www.sunia.it/lazio) — consulenze legali
+- Unione Inquilini — supporto sindacale e accompagnamento nella richiesta di casa popolare (tessera €50)
+- Housing — il Municipio individua assegnatari disponibili alla coabitazione
+
+---
 
 ## Assistenza legale
 
 ### Orientamento e mediazione stragiudiziale
-Per orientamento legale e mediazione stragiudiziale con il proprietario puoi rivolgerti a:
-- [NALC (Caritas)](https://www.caritasroma.it/nalc-nucleo-assistenza-legale-caritas/)
-- sindacati inquilini (richiedono appuntamento e tessera associativa)
-  - [SUNIA](https://www.sunia.it/lazio)
-    - Sede Sud Ovest - Marconi: email: [suniaovest@gmail.com](mailto:suniaovest@gmail.com) - indirizzo: Via G. Veronese 56 - tel: [062753848](tel:062753848)
+Per orientamento legale e mediazione con il proprietario puoi rivolgerti a:
+
+- [NALC – Caritas](https://www.caritasroma.it/nalc-nucleo-assistenza-legale-caritas/)
+- Sindacati inquilini (richiedono appuntamento e tessera associativa):
+  - [SUNIA](https://www.sunia.it/lazio)  
+    **Sede Sud Ovest – Marconi**  
+    Email: [suniaovest@gmail.com](mailto:suniaovest@gmail.com)  
+    Indirizzo: Via G. Veronese 56  
+    Tel: [062753848](tel:062753848)
   - SICET
   - UNIAT
   - Unione Inquilini
@@ -28,85 +35,96 @@ Per orientamento legale e mediazione stragiudiziale con il proprietario puoi riv
   - Asia-USB
 
 ### Causa giudiziaria
-Si ha diritto al gratuito patrocinio se si ha ISEE inferiore a circa €14.000 (valore si aggiorna ogni anno)
+Hai diritto al **gratuito patrocinio** se il tuo **ISEE è inferiore a circa €14.000** (valore aggiornato annualmente).
 
-# Occupazione abusiva
-Se hai minori contattare PUA per richiedere assistente sociale.
+---
 
-# Difficoltà a pagare affitto
+## Occupazione abusiva
 
-* municipio con periodico 185
+Se hai minori, contatta il **PUA** per richiedere l’intervento dell’assistente sociale.
 
-## Morosità incolpevole
+---
 
-Riduzione del reddito per perdita del lavoro
+## Difficoltà a pagare l’affitto
 
-Andare da Punto Abitare perché in questo caso contributo va al locatore in cambio dell'annullamento dello sfratto.
+- Municipio — contributo **185 periodico**
 
-Documenti necessari:
-* ISEE
-* Documenti d'identità
-* IBAN del locatore (perchè 185 interviene anche per morosità incolpevole e va al locatore)
+### Morosità incolpevole
+Riduzione del reddito per perdita del lavoro.
 
-## Calamità naturali
+Rivolgiti a **Punto Abitare**: il contributo viene erogato al locatore in cambio dell’annullamento dello sfratto.
 
-Va chiamata protezione civile e dopo 45 giorni che stai in centro assistenza vai a Punto Abitare con certificato di inagibilità.
+**Documenti necessari:**
+- ISEE
+- Documento d’identità
+- IBAN del locatore (il contributo 185 viene versato direttamente a lui)
 
-Documenti necessari:
-* ISEE
-* Documenti d'identità
+### Calamità naturali
+Chiama la **Protezione Civile**.  
+Dopo 45 giorni in centro assistenza, vai a **Punto Abitare** con il certificato di inagibilità.
 
+**Documenti necessari:**
+- ISEE
+- Documento d’identità
 
-# 185
-Tre contributi:
-* periodico (del municipio): 5+5 fino a un massimo di €900/mese. Solo se hai contratto di affitto
-* temporaneo (del dipartimento patrimonio, sviluppo, valorizzazione del Comune): 12 mesi + 12: se sei in condizioni di grave disagio abitativo (emergenza). In un qualsiasi momento dello sfratto: da intimazione a dopo sfratto esecutivo anche senza contratto di affitto per pagare b&b...
-* ricollocazione: una tantum per trasloco
+---
 
-# 163
-Fino a esaurimento fondi per pagare affitto
+## Contributo 185
 
-# Contatti municipio per appuntamenti
-* Via della Magliana, 296
-* 06.69615669 - 06.69615504 - 06.69615507
-* pua.mun11@comune.roma.it
+Tre tipologie:
 
-# Residenza fittizia
+- **Periodico (Municipio)**  
+  5+5 mesi, fino a €900/mese. Solo con contratto di affitto.
 
-## Requisiti
-- “senza tetto” propriamente detti, persone che vivono per strada o in sistemazioni di fortuna, oppure presso dormitori o strutture di accoglienza notturna;
+- **Temporaneo (Dipartimento Patrimonio del Comune)**  
+  12 mesi + 12. Per grave disagio abitativo (emergenza).  
+  Accessibile in qualsiasi fase dello sfratto, anche senza contratto, per pagare b&b o sistemazioni temporanee.
 
-- “senza casa”, ospiti in strutture per persone senza dimora, in dormitori oppure in centri di accoglienza per donne;
+- **Ricollocazione**  
+  Contributo una tantum per trasloco.
 
-- con “sistemazione insicura”, a rischio di violenza domestica attestata da rapporti di polizia;
+---
 
-- e, in generale, tutte le persone che rientrano nell’ampia categoria delle persone senza fissa dimora in senso proprio.
+## Contributo 163
 
-## Documenti necessari
+Contributo fino a esaurimento fondi per il pagamento dell’affitto.
+
+---
+
+## Contatti Municipio XI per appuntamenti
+
+- Via della Magliana, 296  
+- Tel: [06.69615669](tel:0669615669) — [06.69615504](tel:0669615504) — [06.69615507](tel:0669615507)  
+- Email: pua.mun11@comune.roma.it [(comune.roma.it in Bing)](https://www.bing.com/search?q="mailto%3Apua.mun11%40comune.roma.it")
+
+---
+
+## Residenza fittizia
+
+### Requisiti
+- Persone senza tetto (strada, dormitori, sistemazioni di fortuna)
+- Persone senza casa ospitate in strutture di accoglienza
+- Persone con sistemazione insicura (violenza domestica attestata)
+- In generale, persone senza fissa dimora
+
+### Documenti necessari
 - Documento in corso di validità
 
-## Documenti da compilare
+### Documenti da compilare
+- Modello ministeriale “Dichiarazione di residenza”
+- “Dichiarazione sostitutiva ai sensi del D.P.R. 445/2000 per iscrizione anagrafica presso residenza fittizia – Via Modesta Valenti”
+- Modello “Consenso trattamento dati”
 
-- modello ministeriale di “Dichiarazione di residenza”;
+### Modalità di presentazione
+- Di persona presso l’ufficio anagrafico del Municipio competente  
+  (Municipio XI: Via Portuense 579 o Via Mazzacurati 69)
+- Via PEC: protocollo.municipioroma11@pec.comune.roma.it [(pec.comune.roma.it in Bing)](https://www.bing.com/search?q="mailto%3Aprotocollo.municipioroma11%40pec.comune.roma.it")
+- Raccomandata a:  
+  **Ufficio Anagrafe Municipio Roma XI — Via Portuense 579**
 
-- “Dichiarazione Sostitutiva ai sensi del D.P.R. n. 445/2000 ai fini dell’iscrizione anagrafica presso la residenza fittizia di Roma, Via Modesta Valenti”
+### Fonti
+- [https://www.comune.roma.it/web/it/informazione-di-servizio.page?contentId=IDS1195915](https://www.comune.roma.it/web/it/informazione-di-servizio.page?contentId=IDS1195915)  
+- [https://www.comune.roma.it/web/it/municipio-xi-uffici-e-contatti.page?contentId=UFF529725](https://www.comune.roma.it/web/it/municipio-xi-uffici-e-contatti.page?contentId=UFF529725)
 
-- modello di “Consenso trattamento dati”.
-
-## Modalità di presentazione
-
-- recandosi personalmente presso all’ufficio anagrafico del Municipio di competenza territoriale. Nel caso del municipio XI è a via Portuense, 579 o via Mazzacurati, 69;
-
-- mediante trasmissione via PEC dell’istanza (protocollo.municipioroma11@pec.comune.roma.it);
-
-- mediante lettera Raccomandata indirizzata a: Ufficio Anagrafe Municipio Roma XI - Via Portuense, 579
-
-FONTI:
-
-https://www.comune.roma.it/web/it/informazione-di-servizio.page?contentId=IDS1195915
-
-https://www.comune.roma.it/web/it/municipio-xi-uffici-e-contatti.page?contentId=UFF529725
-
-## Cancellazione
-
-[Dopo due anni, qualora nei successivi sei mesi il cittadino non abbia più contatti con il Servizio Sociale, l’Agenzia delle Entrate, la Pubblica Sicurezza, le Associazioni, ecc., viene dichiarata l’irreperibilità anagrafica e si procede alla cancellazione della residenza.](https://www.comune.roma.it/web/it/scheda-servizi.page?contentId=INF36538)
+### Cancellazione
+[Dopo due anni, se nei successivi sei mesi non ci sono contatti con servizi sociali, Agenzia delle Entrate, Pubblica Sicurezza o associazioni, viene dichiarata l’irreperibilità anagrafica e si procede alla cancellazione della residenza.](https://www.comune.roma.it/web/it/scheda-servizi.page?contentId=INF36538)
