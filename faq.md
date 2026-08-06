@@ -10,6 +10,26 @@ title: FAQ
 * Unione Inquilini (sindacalisti e ti seguono per richiesta casa popolare a pagamento (tessera 50 euro))
 * Housing (ci pensa il municipio a trovare assegnatari di casa popolari disposti a condividere gli spazi)
 
+## Assistenza legale
+
+### Orientamento e mediazione stragiudiziale
+Per orientamento legale e mediazione stragiudiziale con il proprietario puoi rivolgerti a:
+- NALC (Caritas)
+- sindacati inquilini (richiedono appuntamento e tessera associativa)
+  - [SUNIA](https://www.sunia.it/lazio)
+    - Sede Sud Ovest - Marconi: email: [suniaovest@gmail.com](mailto:suniaovest@gmail.com) - indirizzo: Via G. Veronese 56 - tel: [062753848](tel:062753848)
+  - SICET
+  - UNIAT
+  - Unione Inquilini
+  - CONIA
+  - Feder.Casa
+  - SAI
+  - ANIA
+  - Asia-USB
+
+### Causa giudiziaria
+Si ha diritto al gratuito patrocinio se si ha ISEE inferiore a circa €14.000 (valore si aggiorna ogni anno)
+
 # Occupazione abusiva
 Se hai minori contattare PUA per richiedere assistente sociale.
 
